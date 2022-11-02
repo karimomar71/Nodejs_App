@@ -1,15 +1,15 @@
 #GKE cluster and Bastion Host on GCP Using Terraform
-#### Deploy a Python Application ![Project link] (https://github.com/atefhares/DevOps-Challenge-Demo-Code)
-1. Dockarize a python web application using docker
+#### Deploy a NodeJS Application ![Project link] (https://github.com/karimomar71/nodejs__app)
+1. Dockarize a NodeJS web application using docker
 2. Pull redis image from docker Hub 
 3. push 2 image to GCR on GCP
 ```
 # Authenticate to GCR using gcloud
 gcloud auth configure-docker gcr.io
 # Tag the image 
-docker tag web-app  gcr.io/final-project/python-app
+docker tag web-app  gcr.io/final-project/node-app
 # Push the image to GCR
-docker push gcr.io/final-project/python-app
+docker push gcr.io/final-project/node-app
 
 ```
 # Infrastructure Resoureces on GCP
