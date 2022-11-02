@@ -1,4 +1,4 @@
-#GKE cluster and Bastion Host on GCP Using Terraform
+# GKE cluster and Bastion Host on GCP Using Terraform
 #### Deploy a NodeJS Application ![Project link] (https://github.com/karimomar71/nodejs__app)
 1. Dockarize a NodeJS web application using docker
 2. Pull redis image from docker Hub 
