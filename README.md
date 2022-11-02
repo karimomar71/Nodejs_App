@@ -47,26 +47,7 @@ gcloud container clusters get-credentials mycluster --zone us-west2-a --project 
 ```
 gcloud compute ssh mymachine --project final-project --zone us-west2-a -- -L8888:localhost:8888
 ```
-#### Run Kubectl using this command or do export
-```
-HTTPS_PROXY=localhost:8888 kubectl
-## or use 
-export HTTPS_PROXY=localhost:8888
-kubectl
-```
-
-## Deploy Kuberentes Files
-```
-kubectl apply -fR ./kubernetes
-```
-```
-kubectl get ingress
-```
-
-## Clean up 💣
-```
-kubectl delete -f ./k8s
-```
+#Destory all resources once uou finish using the below command
 ```
 terraform destroy 
 ```
